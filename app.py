@@ -27,7 +27,12 @@ CAPITAL_TIMEZONES = {
     "Beijing": "Asia/Shanghai",
     "Berlin": "Europe/Berlin",
     "Rome": "Europe/Rome",
-    "Madrid": "Europe/Madrid"
+    "Madrid": "Europe/Madrid",
+    "New Delhi": "Asia/Kolkata",
+    "Buenos Aires": "America/Argentina/Buenos_Aires",
+    "Cairo": "Africa/Cairo",
+    "Nairobi": "Africa/Nairobi",
+    "Ottawa": "America/Toronto"
 }
 
 @app.route('/api/hello', methods=['GET'])
